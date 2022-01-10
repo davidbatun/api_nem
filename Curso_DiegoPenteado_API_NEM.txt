@@ -1,0 +1,39 @@
+Curso básico de APIs com Nodejs + Express + Mongodb
+
+1. Abre la terminal en la carpeta donde se alojan los ficheros fuente y escribe el siguiente código para iniciar git en dicha carpeta:
+
+
+1.- git init
+
+
+2. Se habrá creado la carpeta .git con la información del proyecto. Añade los ficheros para subir el mismo con este comando:
+
+
+2.- git add
+
+
+Otra forma de añadir un único fichero es introduciendo el comando siguiente:
+
+
+3.- git add nombrdelfichero
+
+
+3. Prepara los ficheros que quieres subir con una pequeña explicación acerca de los cambios:
+
+
+4.- git commit -m “Creado el proyecto inicial”
+
+
+4. Debes subir los cambios a GitHub. Para ello tienes que saber la ruta del repositorio (acabada en .git) que está en Clone or Download, el botón verde de la página del proyecto. Luego añade el repositorio desde la terminal con este comando:
+
+
+5.- git remote add origin URLrepositorio.git
+
+
+5. Sube los cambios con el siguiente comando:
+
+
+git push origin master
+
+
+ Si has seguido estos pasos, los cambios aparecerán en la página del proyecto, ¿fácil verdad?
