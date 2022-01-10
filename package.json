@@ -1,0 +1,25 @@
+{
+  "name": "api_nodejs",
+  "version": "1.0.0",
+  "description": "Este proyecto esta realizado con ayuda del curso de: Diego Penteado\r Head de TI - Engenheiro",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidbatun/api_nem.git"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "David Batun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davidbatun/api_nem/issues"
+  },
+  "homepage": "https://github.com/davidbatun/api_nem#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  }
+}

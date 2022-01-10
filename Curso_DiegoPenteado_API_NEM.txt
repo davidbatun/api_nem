@@ -44,4 +44,11 @@ Actualizar: cambios remotos a local
 1.- git pull origin master
 
 
+----------------------------------------------------------------
 
+1.- Iniciamios el proyecto en github.
+2.- Iniciamios el proyecto node
+    > npm init
+3.- Creamos el archivo app.js
+4.- Instalamos Express
+    > npm install express --save
