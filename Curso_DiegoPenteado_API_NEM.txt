@@ -59,6 +59,16 @@ git commit -m 'Eliminada carpeta node_modules del repo'
 3.- Creamos el archivo app.js
 4.- Instalamos Express
     > npm install express --save
+5.- Creamos el closter desde cloud.mongodb.com  mongodb atlas: user admin
 
+link de aplicación: mongodb+srv://admin:<password>@clusterapinem.njyls.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
+
+Replace <password> with the password for the admin user. Replace myFirstDatabase with the name of the database that connections will use by default. Ensure any option params are URL encoded.
+
+-- https://cloud.mongodb.com/v2/61dc93fa12bb00614ba338e2#clusters/detail/ClusterAPINEM/connect?clusterId=ClusterAPINEM
+
+6.- https://mongoosejs.com/
+    > npm install mongoose --save
+    > npm install body-parser --save
 -----------------------------------------------
 
