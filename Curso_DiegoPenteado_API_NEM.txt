@@ -37,3 +37,11 @@ git push origin master
 
 
  Si has seguido estos pasos, los cambios aparecerán en la página del proyecto, ¿fácil verdad?
+
+--------------------------------------
+Actualizar: cambios remotos a local
+
+1.- git pull origin master
+
+
+
