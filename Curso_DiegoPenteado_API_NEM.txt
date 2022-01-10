@@ -43,8 +43,15 @@ Actualizar: cambios remotos a local
 
 1.- git pull origin master
 
+----------------------------------------------------
+imagina que estás en un proyecto NodeJS. Olvidas de hacer el gitignore de la carpeta "node_modules". Entonces haces un commit y metes un montón de dependencias a tu repositorio git, que no debían estar. Si ves ahora en un sistema de interfaz gráfica tu repositorio (o subiéndolo a Github) podrás observar que los archivos de "node_modules" están ahí.
 
-----------------------------------------------------------------
+git rm -r --cached node_modules
+
+Luego tendrás que hacer un commit para que esos cambios se apliquen al sistema de control de versiones.
+
+git commit -m 'Eliminada carpeta node_modules del repo'
+----------------------------------------------------
 
 1.- Iniciamios el proyecto en github.
 2.- Iniciamios el proyecto node
@@ -52,3 +59,6 @@ Actualizar: cambios remotos a local
 3.- Creamos el archivo app.js
 4.- Instalamos Express
     > npm install express --save
+
+-----------------------------------------------
+
