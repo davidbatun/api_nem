@@ -3,9 +3,14 @@ const express = require('express');
 const app = express();
 
 const mongoose = require('mongoose');
-const url = 'mongodb+srv://admin:admin@clusterapinem.njyls.mongodb.net/myFirstDatabase?retryWrites=true&w=majority';
+
+const password = require('./config/password');
+const clave = password.password;
+console.log(clave);
+const url = `mongodb+srv://admin:${clave}@clusterapinem.njyls.mongodb.net/myFirstDatabase?retryWrites=true&w=majority`;
 //Conexión a la base de datos
 //mongodb+srv://admin:<password>@clusterapinem.njyls.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
+//mongoose version 6.1.6
 const options = { keepAlive: true, keepAliveInitialDelay: 300000, maxPoolSize: 10, useNewUrlParser: true, useUnifiedTopology: true };
 //Body parser deprecated - middleware (4)
 //If you also have the following code in your environment:
