@@ -1,3 +1,3 @@
-const clave = 'admin';
+const clave = '';
 
 export default clave;
