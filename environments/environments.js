@@ -1,3 +1,3 @@
-const clave = '';
+const serverMongoAtlas = '';
 
-export default clave;
+export default serverMongoAtlas;

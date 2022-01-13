@@ -4,10 +4,14 @@ const app = express();
 
 const mongoose = require('mongoose');
 
-const password = require('./config/password');
-const clave = password.password;
-console.log(clave);
-const url = `mongodb+srv://admin:${clave}@clusterapinem.njyls.mongodb.net/myFirstDatabase?retryWrites=true&w=majority`;
+const config = require('./config/config');
+
+const url = config.bd_string;
+// const password = require('./config/password');
+// const user = password.user;
+// const clave = password.password;
+// console.log(clave);
+// const url = `mongodb+srv://${user}:${clave}@clusterapinem.njyls.mongodb.net/myFirstDatabase?retryWrites=true&w=majority`;
 //Conexión a la base de datos
 //mongodb+srv://admin:<password>@clusterapinem.njyls.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
 //mongoose version 6.1.6
@@ -52,5 +56,5 @@ app.use('/users', usersRoutes);
 // });
 
 app.listen(3000);
-
+console.log('app.js');
 module.exports = app;

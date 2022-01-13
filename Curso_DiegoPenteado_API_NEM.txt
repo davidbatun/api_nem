@@ -69,6 +69,10 @@ Replace <password> with the password for the admin user. Replace myFirstDatabase
 
 6.- https://mongoosejs.com/
     > npm install mongoose --save
-    > npm install body-parser --save
+    > npm install body-parser --save (ya no se usa)
+7.- Instalamos bcrypt (y lo usamos en el modelo de user)
+    > npm install bcrypt --save
+8.- Instalamos jsonwebtoken
+    > npm install jsonwebtoken --save
 -----------------------------------------------
 
